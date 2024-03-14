@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Company</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        /* You can add your custom styles here */
+        body {
+          background-color: #444444;
+          color: white;
+        }
+
+        .navbar{
+          background-color: #222222;
+        }
+
+        .jumbotron {
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+
+            background-image: url('/homework/assets/images/fb2.jpg');
+            
+            background-size:cover ;
+            background-repeat: no-repeat;
+            background-position: center bottom; /* Center the background image */
+        }
+
+        .full-width-container {
+            width: 100%;
+            padding-right: 20px;
+            padding-left: 20px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        footer {
+        background-color: #888888; /* Choose your desired color */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class=" navbar navbar-expand-lg navbar-dark">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand mr-auto font-weight-bold" href="#">Soccer Company</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto d-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+        <h1 class=" display-4 font-weight-bold text-outline">Welcome to Soccer Company</h1>
+        <p class="lead font-weight-bold text-outline">We provide top-quality soccer equipment and services.</p>
+        <a class="btn btn-primary btn-lg" style="background-color: #328ad6; border:none; border-radius:10%;" href="#" role="button">Learn more</a>
+    </div>
+</div>
+
+<!-- Main Content Section -->
+<div class="full-width-container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>We are passionate about soccer and dedicated to providing the best equipment and services to our customers. Whether you're a professional player or just starting out, we've got you covered.</p>
+        </div>
+        <div class="col-md-6">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Soccer gear and equipment sales</li>
+                <li>Training sessions with professional coaches</li>
+                <li>Tournaments and events organization</li>
+                <li>Custom team jerseys and uniforms</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- three icon part-->
+<div class="full-width-container" id="featured-3" >
+  <h2 class="pb-2 pt-5 border-bottom font-weight-bold text-outline">ALL ABOUT SOCCER.</h2>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <img src="/homework/assets/images/fb3.jpg" style="width:100%; height: 200px; object-fit: cover;">
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Products</h3>
+      <p>
+        Explore our wide range of soccer products designed to enhance your game. From high-quality soccer balls and training equipment to stylish jerseys and accessories, we have everything you need to take your soccer experience to the next level.
+      </p>
+      <a href="#" class="icon-link" style="color: white;">
+        More
+        <img src="/homework/assets/svg/chevron-right.svg" />
+      </a>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <img src="/homework/assets/images/Barca.png" style="width:100%; height: 200px; object-fit: cover;">
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Services</h3>
+      <p>Discover our premium soccer services tailored to meet your needs. Whether you're looking for personalized training sessions with experienced coaches, organizing tournaments and events, or customizing team jerseys and uniforms, we have you covered with top-notch services to elevate your soccer experience.</p>
+      <a href="#" class="icon-link" style="color: white;">
+        More
+        <img src="/homework/assets/svg/chevron-right.svg" />
+      </a>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <img src="/homework/assets/images/liverpool.jpg" style="width:100%; height: 200px; object-fit: cover;"/>
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Customer-Centric Approach</h3>
+      <p>
+        We prioritize customer satisfaction and provide excellent support for your soccer needs. Our dedicated team is always here to assist you with any questions or concerns you may have. With our customer-centric approach, you can trust us to deliver the best soccer experience possible.
+      </p>
+      <a href="#" class="icon-link" style="color: white;">
+        More
+        <img src="/homework/assets/svg/chevron-right.svg" />
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- footer part-->
+<footer class=" text-white d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+  <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Soccer Company.</p>
+
+  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+  </a>
+
+  <ul class="nav col-md-4 justify-content-end">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" style="color: white;">Home</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" style="color: white;">Features</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" style="color: white;">Pricing</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" style="color: white;">FAQs</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary" style="color: white;">About</a></li>
+  </ul>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
